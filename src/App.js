@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Navagition from './components/Navagition';
+import NavBar from './components/Navagition';
 
 function App() {
-  const player = {
-    id: 2, 
-    name: "Test",
-    
-  };
+  
 
   return (
     <>
-      <div className='div' >Hello</div>
+      <Navagition/>
       
     </>
   );
