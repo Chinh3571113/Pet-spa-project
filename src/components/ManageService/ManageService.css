@@ -1,7 +1,13 @@
+/* Component */
 .manageService-component {
     margin-bottom: 30px;
+    animation: 1s ease-in-out component-motion;
 }
 
+@keyframes component-motion {
+    from { transform: translateX(-1300px); }
+    to {transform: translateX(0);}
+}
 
 /* Table */
 .manageService-component .table {
@@ -13,7 +19,6 @@
     border-radius: .8rem;
     overflow: hidden;
 }
-
 
 /* Table heading left */
 .manageService-component .table .table-heading-left {
@@ -45,13 +50,6 @@
     margin: .8rem auto;
     border-radius: 1rem;
     overflow: auto;
-}
-
-.manageService-component table img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    vertical-align: middle;
 }
 
 .manageService-component table {

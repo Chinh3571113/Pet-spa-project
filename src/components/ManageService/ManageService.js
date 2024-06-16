@@ -79,7 +79,7 @@ export default function ManageService() {
                       <td>{service.id}</td>
                       <td>{service.name}</td>
                       <td>$ {service.price}</td>
-                      <td><Link className='update-button' to={`/update?${service.id}`} >UPDATE</Link> </td>
+                      <td><Link className='update-button' to={`/updateService?${service.id}`} >UPDATE</Link> </td>
                       <td>
                         <Button className='delete-button' onClick={() => handleShow(service.id)}>
                           DELETE
@@ -94,7 +94,7 @@ export default function ManageService() {
                             <Button variant="secondary" onClick={handleClose}>
                               Close
                             </Button>
-                            <Button id='delete-button' onClick={() => deleteService()}>
+                            <Button variant='danger' id='delete-button' onClick={() => deleteService()}>
                               DELETE
                             </Button>
                           </Modal.Footer>
