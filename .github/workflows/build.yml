@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - Sprint4-ManageService-Chinh
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
