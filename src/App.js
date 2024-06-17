@@ -1,14 +1,16 @@
 import './App.css';
-import Footer from './components/Footer';
-import Navagition from './components/Navagition';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Navagition from './components/Navagition/Navagition';
+
 
 function App() {
-  
 
   return (
     <>
       <Navagition/>
-      
+        <Contact/>
+      <Footer/>
     </>
   );
 }
